@@ -45,7 +45,7 @@ export const baseConfig = {
 };
 
 export const minConfig = {
-  input: 'source/index.js',
+  input: 'source/umd.js',
   output: [
     {
       file: `dist/${LIBRARY_FILE_NAME}.min.js`,
