@@ -21,8 +21,12 @@ const adapter = {
       .getChildren(item)
       .filter((child) => adapter.getName(child) === name),
   getChildAt: (item, index = 0) => adapter.toNode(item).children[index],
-  getNodeParent: (item) => adapter.toNode(item).parent,
-  getNodeRoot: (item) => adapter.toNode(item).root,
+  getNodeParent: () => {
+    throw new Error('adapter.getNodeParent() is not implemented.');
+  },
+  getNodeRoot: () => {
+    throw new Error('adapter.getNodeRoot˝() is not implemented.');
+  },
 };
 
 export default adapter;

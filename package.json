@@ -1,7 +1,7 @@
 {
   "name": "@actualwave/tree-walker-children-adapter",
   "description": "Tree Walker adapter for Objects with children:Object[] property for child nodes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/children-adapter.js",
   "keywords": [
     "js",
