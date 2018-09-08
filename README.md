@@ -28,4 +28,4 @@ const sourceTree = {
 
 ### How to use
 This adapter is created to be used with [Tree Walker library](https://github.com/burdiuz/js-tree-walker),
-check its documentation on how to specify adapter. This adapter was used in [Tree Walker Demo](https://jsfiddle.net/actualwave/6kw7z4xj/39/).
+check its documentation on how to specify adapter. This adapter was used in [Tree Walker Demo](https://jsfiddle.net/actualwave/6kw7z4xj/).
