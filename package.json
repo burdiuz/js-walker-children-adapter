@@ -8,6 +8,8 @@
     "javascript",
     "proxy",
     "tree",
+    "walker",
+    "treewalker",
     "E4X"
   ],
   "homepage": "https://github.com/burdiuz/js-walker-children-adapter",
@@ -23,7 +25,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "@actualwave/tree-walker": "^1.0.0"
+    "@actualwave/tree-walker": "^1.0.6"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -104,7 +106,6 @@
     "build": "rollup --config",
     "build:watch": "rollup --config --watch \"./source\"",
     "lint": "./node_modules/.bin/eslint \"source/**/*.js\"",
-    "flow": "./node_modules/.bin/flow",
     "test": "jest --colors",
     "test:watch": "jest --colors --watch",
     "lint-staged": "lint-staged",
