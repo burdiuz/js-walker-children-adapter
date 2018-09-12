@@ -39,6 +39,8 @@ const createAdapter = (
       throw new Error('adapter.getNodeRoot˝() is not implemented.');
     },
   };
+
+  return adapter;
 };
 
 export default createAdapter;
