@@ -31,7 +31,7 @@ Library exports adapter factory function `createAdapter()` that accepts two opti
 * **getNodeName:Function** -- Getter function to retrieve node name, default getter returns `node.name` property.
 * **getNodeChildren:Function** -- Getter function to retrieve list of node children, default getter returns `node.children` property.
 You can pass your own getters:
-```
+```javascript
 import { create, setDefaultAdapter } from '@actualwave/tree-walker';
 import createAdapter from '@actualwave/walker-children-adapter';
 
